@@ -4,10 +4,11 @@
     border: none;
     color: #fff;
     border-radius: 10px;
-    width: 75%;
+    width: 65%;
     font-size: 9px;
     font-weight: bold;
 
     padding: 10px 20px;
-    margin: 20px auto 0;
+    margin: 20px auto;
+    height: 30px;
 }
