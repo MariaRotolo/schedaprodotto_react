@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Product from './components/Product';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+        <Product 
+          
+          imgSrc = "https://res.cloudinary.com/db46klhlo/image/upload/v1639056543/jakob-owens-O_bhy3TnSYU-unsplash.jpg" 
+          productTitle = "Backpack" 
+          productPrice = "34" 
+          productDescription = "Whit a concept design to be easy to understand, RAINS bridge the gap between geopraphy and lifestyle." 
+          ColorTitle = "Colors" 
+          SizeTitle = "Size" 
+          productButton = "Add to cart" 
+
+        />
+     
     </div>
   );
 }

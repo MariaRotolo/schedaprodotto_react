@@ -1,0 +1,13 @@
+.product_img {
+    height: 200px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.product_img img {
+    height: 180px;
+}
+
+

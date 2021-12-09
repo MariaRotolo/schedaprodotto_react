@@ -1,0 +1,25 @@
+.colors_block{
+    display: flex;
+    flex-direction: column;
+}
+.color_icones{
+    display: flex;
+    flex-direction: row;
+}
+
+.color_icones_black{
+    border-radius: 100%;
+    background-color: black;
+}
+.color_icones_blue{
+    border-radius: 100%;
+    background-color:darkblue;
+}
+.color_icones_black{
+    border-radius: 100%;
+    background-color:yellow;
+}
+.color_icones_black{
+    border-radius: 100%;
+    background-color:gray;
+}

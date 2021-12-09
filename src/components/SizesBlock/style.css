@@ -1,0 +1,20 @@
+.sizes_block{
+    display: flex;
+    flex-direction: column;
+}
+.sizes_icones{
+    display: flex;
+    flex-direction: row;
+}
+
+.color_icones_active{
+    border-radius: 100%;
+    background-color: black;
+    color: white;
+}
+
+.color_icones_active{
+    border-radius: 100%;
+    background-color: gray;
+    
+}
