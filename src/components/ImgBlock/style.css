@@ -1,13 +1,19 @@
 .product_img {
-    width: 100%;
-    height: auto;
+    width: 99%;
+    height: 280px;
     display: flex;
     align-items: center;
     justify-content: center;
+    z-index: -1;
+    margin: 0 auto;
+    
 }
 
 .product_img img {
-    height: 180px;
+    width: 100%;
+    border-top-left-radius: 10%;
+    border-top-right-radius: 10%;
+    z-index: -1;
 }
 
 
